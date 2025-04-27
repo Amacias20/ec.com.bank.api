@@ -1,0 +1,13 @@
+Flask
+openai
+faiss-cpu
+sentence-transformers
+requests
+langchain
+langchain-openai
+langchain-community
+chromadb
+python-dotenv
+flask-cors
+pypdf
+PyPDF2
