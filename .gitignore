@@ -1,0 +1,86 @@
+# Archivos de configuración y secretos
+.env
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Carpetas de datos
+chroma_db/
+uploads/
+_pycache_/
+
+# Dependencias Python
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Dependencias JavaScript/React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Archivos compilados
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Caché y logs
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.ipynb_checkpoints
+*.log
+logs/
+*.swp
+*.swo
+
+# Directorios de IDEs y editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.vs/
+*.code-workspace
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+Icon?
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~
